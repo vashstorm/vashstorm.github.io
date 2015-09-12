@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panh Blog</title>
+    <link>http://127.0.0.1/</link>
+    <description>Recent content on Panh Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Sep 2015 13:53:55 +0800</lastBuildDate>
+    <atom:link href="http://127.0.0.1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>go 资料</title>
+      <link>http://127.0.0.1/go/go_doc/</link>
+      <pubDate>Sat, 12 Sep 2015 13:53:55 +0800</pubDate>
+      
+      <guid>http://127.0.0.1/go/go_doc/</guid>
+      <description>
+
+&lt;h3 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; 用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>rocksdb</title>
+      <link>http://127.0.0.1/nosql/rocksdb/</link>
+      <pubDate>Fri, 11 Sep 2015 22:51:42 +0800</pubDate>
+      
+      <guid>http://127.0.0.1/nosql/rocksdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>关于我的博客</title>
+      <link>http://127.0.0.1/about/</link>
+      <pubDate>Fri, 11 Sep 2015 20:22:03 +0800</pubDate>
+      
+      <guid>http://127.0.0.1/about/</guid>
+      <description>
+
+&lt;h3 id=&#34;这是一个什么样的博客:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;这是一个什么样的博客&lt;/h3&gt;
+
+&lt;p&gt;这个博客我主要是用来记录我的学习，生活。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
