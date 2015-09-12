@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Panh Blog</title>
-    <link>http://127.0.0.1/</link>
+    <link>http://vashstorm.github.io/</link>
     <description>Recent content on Panh Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Sep 2015 13:53:55 +0800</lastBuildDate>
-    <atom:link href="http://127.0.0.1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vashstorm.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>go 资料</title>
-      <link>http://127.0.0.1/go/go_doc/</link>
+      <link>http://vashstorm.github.io/go/go_doc/</link>
       <pubDate>Sat, 12 Sep 2015 13:53:55 +0800</pubDate>
       
-      <guid>http://127.0.0.1/go/go_doc/</guid>
+      <guid>http://vashstorm.github.io/go/go_doc/</guid>
       <description>
 
 &lt;h3 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h3&gt;
@@ -27,19 +27,19 @@
     
     <item>
       <title>rocksdb</title>
-      <link>http://127.0.0.1/nosql/rocksdb/</link>
+      <link>http://vashstorm.github.io/nosql/rocksdb/</link>
       <pubDate>Fri, 11 Sep 2015 22:51:42 +0800</pubDate>
       
-      <guid>http://127.0.0.1/nosql/rocksdb/</guid>
+      <guid>http://vashstorm.github.io/nosql/rocksdb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>关于我的博客</title>
-      <link>http://127.0.0.1/about/</link>
+      <link>http://vashstorm.github.io/about/</link>
       <pubDate>Fri, 11 Sep 2015 20:22:03 +0800</pubDate>
       
-      <guid>http://127.0.0.1/about/</guid>
+      <guid>http://vashstorm.github.io/about/</guid>
       <description>
 
 &lt;h3 id=&#34;这是一个什么样的博客:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;这是一个什么样的博客&lt;/h3&gt;

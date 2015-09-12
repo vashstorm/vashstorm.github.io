@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>资料 on Panh Blog</title>
-    <link>http://127.0.0.1/categories/%E8%B5%84%E6%96%99/</link>
+    <link>http://vashstorm.github.io/categories/%E8%B5%84%E6%96%99/</link>
     <description>Recent content in 资料 on Panh Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Sep 2015 13:53:55 +0800</lastBuildDate>
-    <atom:link href="http://127.0.0.1/categories/%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vashstorm.github.io/categories/%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>go 资料</title>
-      <link>http://127.0.0.1/go/go_doc/</link>
+      <link>http://vashstorm.github.io/go/go_doc/</link>
       <pubDate>Sat, 12 Sep 2015 13:53:55 +0800</pubDate>
       
-      <guid>http://127.0.0.1/go/go_doc/</guid>
+      <guid>http://vashstorm.github.io/go/go_doc/</guid>
       <description>
 
 &lt;h3 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h3&gt;
