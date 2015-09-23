@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>资料 on Panh Blog</title>
-    <link>http://vashstorm.github.io/tags/%E8%B5%84%E6%96%99/</link>
-    <description>Recent content in 资料 on Panh Blog</description>
+    <title>Kafka on Panh Blog</title>
+    <link>http://vashstorm.github.io/categories/kafka/</link>
+    <description>Recent content in Kafka on Panh Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
     <lastBuildDate>Wed, 23 Sep 2015 20:46:10 +0800</lastBuildDate>
-    <atom:link href="http://vashstorm.github.io/tags/%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vashstorm.github.io/categories/kafka/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>kafka 命令</title>
@@ -23,22 +23,6 @@
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;bin/kafka-topic.sh --zookeeper 22288
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>go 资料</title>
-      <link>http://vashstorm.github.io/go/go_doc/</link>
-      <pubDate>Sat, 12 Sep 2015 13:53:55 +0800</pubDate>
-      
-      <guid>http://vashstorm.github.io/go/go_doc/</guid>
-      <description>
-
-&lt;h1 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; 用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

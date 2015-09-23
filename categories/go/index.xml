@@ -5,7 +5,7 @@
     <link>http://vashstorm.github.io/categories/go/</link>
     <description>Recent content in Go on Panh Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-ch</language>
     <lastBuildDate>Sat, 12 Sep 2015 13:53:55 +0800</lastBuildDate>
     <atom:link href="http://vashstorm.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
       <guid>http://vashstorm.github.io/go/go_doc/</guid>
       <description>
 
-&lt;h3 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h3&gt;
+&lt;h1 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; 用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;

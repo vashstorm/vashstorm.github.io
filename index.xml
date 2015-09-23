@@ -5,9 +5,26 @@
     <link>http://vashstorm.github.io/</link>
     <description>Recent content on Panh Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 12 Sep 2015 13:53:55 +0800</lastBuildDate>
+    <language>zh-ch</language>
+    <lastBuildDate>Wed, 23 Sep 2015 20:46:10 +0800</lastBuildDate>
     <atom:link href="http://vashstorm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kafka 命令</title>
+      <link>http://vashstorm.github.io/apache/kafka/</link>
+      <pubDate>Wed, 23 Sep 2015 20:46:10 +0800</pubDate>
+      
+      <guid>http://vashstorm.github.io/apache/kafka/</guid>
+      <description>
+
+&lt;h1 id=&#34;kafka-常用工具命令:473086dd57aae3549a71f8d57d9ac809&#34;&gt;kafka 常用工具命令&lt;/h1&gt;
+
+&lt;h2 id=&#34;查看topic分布:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic分布&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;bin/kafka-topic.sh --zookeeper 22288
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>go 资料</title>
@@ -17,7 +34,7 @@
       <guid>http://vashstorm.github.io/go/go_doc/</guid>
       <description>
 
-&lt;h3 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h3&gt;
+&lt;h1 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; 用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;
