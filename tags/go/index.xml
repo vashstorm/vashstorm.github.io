@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go on Panh Blog</title>
-    <link>http://vashstorm.github.io/tags/go/</link>
-    <description>Recent content in Go on Panh Blog</description>
+    <title>Go on Blog of Panh</title>
+    <link>http://10.8.253.78/tags/go/</link>
+    <description>Recent content in Go on Blog of Panh</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-ch</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sat, 12 Sep 2015 13:53:55 +0800</lastBuildDate>
-    <atom:link href="http://vashstorm.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.8.253.78/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>go 资料</title>
-      <link>http://vashstorm.github.io/go/go_doc/</link>
+      <link>http://10.8.253.78/go/go_doc/</link>
       <pubDate>Sat, 12 Sep 2015 13:53:55 +0800</pubDate>
       
-      <guid>http://vashstorm.github.io/go/go_doc/</guid>
+      <guid>http://10.8.253.78/go/go_doc/</guid>
       <description>
 
 &lt;h1 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; 用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.studygolang.com/pkg/&#34;&gt;Go Doc&lt;/a&gt; Go 官方文档。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://http://beego.me/&#34;&gt;Beego&lt;/a&gt; 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

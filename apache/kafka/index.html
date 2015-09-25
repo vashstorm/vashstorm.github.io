@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Panh Blog</title>
+    <title>Blog of Panh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
@@ -13,7 +13,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">Panh Blog</a>
+          <a href="/" class="navbar-brand">Blog of Panh</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -30,6 +30,10 @@
               
                 <li><a href="/apache">apache</a></li>
               
+                <li><a href="/docker">docker</a></li>
+              
+                <li><a href="/docs">docs</a></li>
+              
                 <li><a href="/go">go</a></li>
               
                 <li><a href="/nosql">nosql</a></li>
@@ -44,14 +48,16 @@
 
 <div class="container">
     <div class="col-md-9">
-        <h1><a href="http://vashstorm.github.io/apache/kafka/">kafka 命令</a></h1>
+        <h1><a href="http://10.8.253.78/apache/kafka/">kafka 命令</a></h1>
         <span class="lead">Wed, Sep 23, 2015</span>
         <div class="post">
             <nav id="TableOfContents">
 <ul>
 <li><a href="#kafka-常用工具命令:473086dd57aae3549a71f8d57d9ac809">kafka 常用工具命令</a>
 <ul>
-<li><a href="#查看topic分布:473086dd57aae3549a71f8d57d9ac809">查看topic分布</a></li>
+<li><a href="#查看topic:473086dd57aae3549a71f8d57d9ac809">查看topic</a></li>
+<li><a href="#查看topic-分布:473086dd57aae3549a71f8d57d9ac809">查看topic 分布</a></li>
+<li><a href="#查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809">查看topic各个分区的offset</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -59,10 +65,35 @@
 
 <h1 id="kafka-常用工具命令:473086dd57aae3549a71f8d57d9ac809">kafka 常用工具命令</h1>
 
-<h2 id="查看topic分布:473086dd57aae3549a71f8d57d9ac809">查看topic分布</h2>
+<p><img src="/apache/img/apache_log.png" alt="apache_log" />
+</p>
 
-<pre><code class="language-shell">bin/kafka-topic.sh --zookeeper 22288
+<hr />
+
+<h2 id="查看topic:473086dd57aae3549a71f8d57d9ac809">查看topic</h2>
+
+<pre><code class="language-shell">./bin/kafka-topic.sh --zookeeper 22288
 </code></pre>
+
+<hr />
+
+<h2 id="查看topic-分布:473086dd57aae3549a71f8d57d9ac809">查看topic 分布</h2>
+
+<pre><code class="language-shell">./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
+</code></pre>
+
+<hr />
+
+<h2 id="查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809">查看topic各个分区的offset</h2>
+
+<pre><code class="language-shell">./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
+</code></pre>
+
+<ul>
+<li>其中 time: -1 表示最新消息的offset, -2 表示最旧的消息的offset, 那么现在的消息条数，还需要计算一下。 (不知道是否有直接计算的命令)</li>
+</ul>
+
+<hr />
 
         </div>
 
@@ -96,6 +127,8 @@
                 </div>
                 <div class="list-group">
                     
+                    <a href="/docker/docker_1/" class="list-group-item">docker 玩耍记录</a>
+                    
                     <a href="/apache/kafka/" class="list-group-item">kafka 命令</a>
                     
                     <a href="/go/go_doc/" class="list-group-item">go 资料</a>
@@ -103,6 +136,8 @@
                     <a href="/nosql/rocksdb/" class="list-group-item">rocksdb</a>
                     
                     <a href="/about/" class="list-group-item">关于我的博客</a>
+                    
+                    <a href="/docs/aaa/" class="list-group-item">常用链接</a>
                     
                 </div>
             </div>
@@ -117,20 +152,26 @@
                     
                     
                     
-                    <a href="http://vashstorm.github.io//tags/go" class="list-group-item">
+                    <a href="http://10.8.253.78//tags/docker" class="list-group-item">
+                        <span class="badge">1</span>
+                        docker
+                    </a>
+                    
+                    
+                    <a href="http://10.8.253.78//tags/go" class="list-group-item">
                         <span class="badge">1</span>
                         go
                     </a>
                     
                     
-                    <a href="http://vashstorm.github.io//tags/kafka" class="list-group-item">
+                    <a href="http://10.8.253.78//tags/kafka" class="list-group-item">
                         <span class="badge">1</span>
                         kafka
                     </a>
                     
                     
-                    <a href="http://vashstorm.github.io//tags/%E8%B5%84%E6%96%99" class="list-group-item">
-                        <span class="badge">2</span>
+                    <a href="http://10.8.253.78//tags/%E8%B5%84%E6%96%99" class="list-group-item">
+                        <span class="badge">4</span>
                         资料
                     </a>
                     

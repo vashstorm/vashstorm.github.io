@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Panh Blog</title>
+    <title>Blog of Panh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
@@ -13,7 +13,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">Panh Blog</a>
+          <a href="/" class="navbar-brand">Blog of Panh</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -30,6 +30,10 @@
               
                 <li><a href="/apache">apache</a></li>
               
+                <li><a href="/docker">docker</a></li>
+              
+                <li><a href="/docs">docs</a></li>
+              
                 <li><a href="/go">go</a></li>
               
                 <li><a href="/nosql">nosql</a></li>
@@ -45,9 +49,9 @@
     <div class="container">
         
         <div>
-            <h2><a href="http://vashstorm.github.io/apache/kafka/">kafka 命令</a></h2>
+            <h2><a href="http://10.8.253.78/apache/kafka/">kafka 命令</a></h2>
             <span class="lead">Wed, Sep 23, 2015</span>
-            <p>kafka 常用工具命令 查看topic分布 bin/kafka-topic.sh --zookeeper 22288</p>
+            <p>kafka 常用工具命令 查看topic ./bin/kafka-topic.sh --zookeeper 22288 查看topic 分布 ./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree 查看topic各个分区的offset ./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1 其中 time: -1 表示最新消息的offset, -2 表示最旧的消息的offset, 那么现在的消息条数，还需要计算一下。 (不知道是否有直接计算的命令)</p>
         </div>
         
 

@@ -1,28 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kafka on Panh Blog</title>
-    <link>http://vashstorm.github.io/categories/kafka/</link>
-    <description>Recent content in Kafka on Panh Blog</description>
+    <title>Kafka on Blog of Panh</title>
+    <link>http://10.8.253.78/categories/kafka/</link>
+    <description>Recent content in Kafka on Blog of Panh</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-ch</language>
+    <language>zh-CN</language>
     <lastBuildDate>Wed, 23 Sep 2015 20:46:10 +0800</lastBuildDate>
-    <atom:link href="http://vashstorm.github.io/categories/kafka/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.8.253.78/categories/kafka/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>kafka 命令</title>
-      <link>http://vashstorm.github.io/apache/kafka/</link>
+      <link>http://10.8.253.78/apache/kafka/</link>
       <pubDate>Wed, 23 Sep 2015 20:46:10 +0800</pubDate>
       
-      <guid>http://vashstorm.github.io/apache/kafka/</guid>
+      <guid>http://10.8.253.78/apache/kafka/</guid>
       <description>
 
 &lt;h1 id=&#34;kafka-常用工具命令:473086dd57aae3549a71f8d57d9ac809&#34;&gt;kafka 常用工具命令&lt;/h1&gt;
 
-&lt;h2 id=&#34;查看topic分布:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic分布&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://10.8.253.78/apache/img/apache_log.png&#34; alt=&#34;apache_log&#34; /&gt;
+&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;bin/kafka-topic.sh --zookeeper 22288
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;查看topic:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topic.sh --zookeeper 22288
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;查看topic-分布:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic 分布&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic各个分区的offset&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;其中 time: -1 表示最新消息的offset, -2 表示最旧的消息的offset, 那么现在的消息条数，还需要计算一下。 (不知道是否有直接计算的命令)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
 </description>
     </item>
     

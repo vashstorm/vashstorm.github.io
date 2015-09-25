@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Blog of Panh</title>
+    <link>http://10.8.253.78/docs/</link>
+    <description>Recent content in Docs on Blog of Panh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 01 Jan 2015 13:53:55 +0800</lastBuildDate>
+    <atom:link href="http://10.8.253.78/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>常用链接</title>
+      <link>http://10.8.253.78/docs/aaa/</link>
+      <pubDate>Thu, 01 Jan 2015 13:53:55 +0800</pubDate>
+      
+      <guid>http://10.8.253.78/docs/aaa/</guid>
+      <description>
+
+&lt;h1 id=&#34;blogs:866cc4004884fb194cc9090bceb425ea&#34;&gt;Blogs&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt;                       用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.studygolang.com/pkg/&#34;&gt;Go Doc&lt;/a&gt;                                                 Go 官方文档。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://http://beego.me/&#34;&gt;Beego&lt;/a&gt;            一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

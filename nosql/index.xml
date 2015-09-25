@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nosqls on Panh Blog</title>
-    <link>http://vashstorm.github.io/nosql/</link>
-    <description>Recent content in Nosqls on Panh Blog</description>
+    <title>Nosqls on Blog of Panh</title>
+    <link>http://10.8.253.78/nosql/</link>
+    <description>Recent content in Nosqls on Blog of Panh</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-ch</language>
+    <language>zh-CN</language>
     <lastBuildDate>Fri, 11 Sep 2015 22:51:42 +0800</lastBuildDate>
-    <atom:link href="http://vashstorm.github.io/nosql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.8.253.78/nosql/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>rocksdb</title>
-      <link>http://vashstorm.github.io/nosql/rocksdb/</link>
+      <link>http://10.8.253.78/nosql/rocksdb/</link>
       <pubDate>Fri, 11 Sep 2015 22:51:42 +0800</pubDate>
       
-      <guid>http://vashstorm.github.io/nosql/rocksdb/</guid>
+      <guid>http://10.8.253.78/nosql/rocksdb/</guid>
       <description></description>
     </item>
     
