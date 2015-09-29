@@ -2,22 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Blog of Panh</title>
-    <link>http://10.8.253.78/categories/go/</link>
+    <link>http://vashstorm.github.io/categories/go/</link>
     <description>Recent content in Go on Blog of Panh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 12 Sep 2015 13:53:55 +0800</lastBuildDate>
-    <atom:link href="http://10.8.253.78/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vashstorm.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>go 资料</title>
-      <link>http://10.8.253.78/go/go_doc/</link>
+      <link>http://vashstorm.github.io/go/go_doc/</link>
       <pubDate>Sat, 12 Sep 2015 13:53:55 +0800</pubDate>
       
-      <guid>http://10.8.253.78/go/go_doc/</guid>
-      <description>
-
-&lt;h1 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h1&gt;
+      <guid>http://vashstorm.github.io/go/go_doc/</guid>
+      <description>&lt;p&gt;go 语言资料汇总。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; 用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;

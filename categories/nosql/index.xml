@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nosqls on Blog of Panh</title>
-    <link>http://vashstorm.github.io/nosql/</link>
-    <description>Recent content in Nosqls on Blog of Panh</description>
+    <title>Nosql on Blog of Panh</title>
+    <link>http://vashstorm.github.io/categories/nosql/</link>
+    <description>Recent content in Nosql on Blog of Panh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 11 Sep 2015 22:51:42 +0800</lastBuildDate>
-    <atom:link href="http://vashstorm.github.io/nosql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vashstorm.github.io/categories/nosql/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>rocksdb:尽然有用起来这么麻烦的东西</title>

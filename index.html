@@ -1,114 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Blog of Panh</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" href="/css/hugo-bootswatch.css">
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog of Panh</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" href="/css/hugo-bootswatch.css">
+        <link href="/css/prism.css" rel="stylesheet" />
+    </head>
+    <body>
 
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="/" class="navbar-brand">Blog of Panh</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+<div class="container">
+    <div class="navbar navbar-default">
+        <a href="/" class="navbar-brand">Blog of Panh</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
-        </div>
+        </button>
         <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav navbar-right">
-           <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="sections">Sections<span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="download">
-              
-                <li><a href="/"></a></li>
-              
-                <li><a href="/apache">apache</a></li>
-              
-                <li><a href="/docker">docker</a></li>
-              
-                <li><a href="/docs">docs</a></li>
-              
-                <li><a href="/go">go</a></li>
-              
-                <li><a href="/nosql">nosql</a></li>
-              
-              </ul>
-            </li> 
-          </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="sections">Sections<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="download">
+                        
+                        <li><a href="/"></a></li>
+                        
+                        <li><a href="/apache">apache</a></li>
+                        
+                        <li><a href="/docker">docker</a></li>
+                        
+                        <li><a href="/go">go</a></li>
+                        
+                        <li><a href="/nosql">nosql</a></li>
+                        
+                    </ul>
+                </li> 
+            </ul>
         </div>
-      </div>
+
     </div>
+</div>
 
 
 <div class="container">
 
-        
-        <div>
-            <h2><a href="http://10.8.253.78/docker/docker_1/">docker 玩耍记录</a></h2>
-            <span class="lead">Thu, Sep 24, 2015</span>
-            <p>Docker 1. No more sudo for docker 操作 docker 的时候每次都需要 sudo 来提升权限, 比较麻烦，可以有一个简单的方法来解决。 sudo groupadd docker # 先添加 docker 用户组 sudo gpasswd -a username docker # 把当前使用的账号添加到 docker 组 sudo service docker restart # 重启 docker 服务 2. Docker 启动方式 用法 : docker run [OPTIONS] IMAGE [COMMAND] [ARG...] 3. Docker 网络连接方式 4. Docker 挂载磁盘 5. Dockerfile 编写 6. Docker 常用命令</p>
-        </div>
-        
-        <div>
-            <h2><a href="http://10.8.253.78/apache/kafka/">kafka 命令</a></h2>
-            <span class="lead">Wed, Sep 23, 2015</span>
-            <p>kafka 常用工具命令 查看topic ./bin/kafka-topic.sh --zookeeper 22288 查看topic 分布 ./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree 查看topic各个分区的offset ./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1 其中 time: -1 表示最新消息的offset, -2 表示最旧的消息的offset, 那么现在的消息条数，还需要计算一下。 (不知道是否有直接计算的命令)</p>
-        </div>
-        
-        <div>
-            <h2><a href="http://10.8.253.78/go/go_doc/">go 资料</a></h2>
-            <span class="lead">Sat, Sep 12, 2015</span>
-            <p>go 语言资料汇总 Go by Example 用简单代码演示Go的特性，方便查询和巩固。 Go Doc Go 官方文档。 Beego 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架。</p>
-        </div>
-        
-        <div>
-            <h2><a href="http://10.8.253.78/nosql/rocksdb/">rocksdb</a></h2>
-            <span class="lead">Fri, Sep 11, 2015</span>
-            <p></p>
-        </div>
-        
-        <div>
-            <h2><a href="http://10.8.253.78/about/">关于我的博客</a></h2>
-            <span class="lead">Fri, Sep 11, 2015</span>
-            <p>这是一个什么样的博客 这个博客我主要是用来记录我的学习，生活。</p>
-        </div>
-        
-        <div>
-            <h2><a href="http://10.8.253.78/docs/aaa/">常用链接</a></h2>
-            <span class="lead">Thu, Jan 1, 2015</span>
-            <p>Blogs Go by Example 用简单代码演示Go的特性，方便查询和巩固。 Go Doc Go 官方文档。 Beego 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架。</p>
-        </div>
-        
+    
+    <div class="summary">
+        <h2><a href="/docker/docker_1/">docker 玩耍记录</a></h2>
+        主要是 docker 的一些配置和常用技巧。 No more sudo for docker 操作 docker 的时候每次都需要 sudo 来提升权限, 比较麻烦，可以有一个简单的方法来解决。 sudo groupadd docker # 先添加 docker 用户组 sudo gpasswd -a username docker # 把当前使用的账号添加到 docker 组 sudo service docker restart # 重启 docker 服务 Docker 启动方式 用法 : docker run [OPTIONS] IMAGE [COMMAND] [ARG...] Docker 网络连接方式 #include &lt;iostream&gt; using namespace std; int main() { cout &lt;&lt; &quot;Hello World!&quot; &lt;&lt; endl; return 0; } Docker 挂载磁盘 Dockerfile
+    </div>
+    
+    <div class="read-more-link">
+        <a href="/docker/docker_1/">Read More…</a>
+    </div>
+    
+    
+    <div class="summary">
+        <h2><a href="/apache/kafka/">kafka 命令</a></h2>
+        收集了一些常用的kafka命令，其中 port，topic 符合我自己的生产环境。 查看topic ./bin/kafka-topic.sh --zookeeper 22288 查看topic 分布 ./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree 查看topic各个分区的offset ./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1 其中 time: -1 表示最新消息的offset, -2 表示最旧的消息的offset, 那么现在的消息条数，还需要计算一下。 (不知道是否有直接计算的命令)
+    </div>
+    
+    
+    <div class="summary">
+        <h2><a href="/go/go_doc/">go 资料</a></h2>
+        go 语言资料汇总。 Go by Example 用简单代码演示Go的特性，方便查询和巩固。 Go Doc Go 官方文档。 Beego 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架。
+    </div>
+    
+    
+    <div class="summary">
+        <h2><a href="/nosql/rocksdb/">rocksdb:尽然有用起来这么麻烦的东西</a></h2>
+        rocksdb 是 facebook 开源的 KV 数据库。 rocksdb github 主页 关于这个真不知道说啥，因为要求 C++11 标准，所以暂时只能自己玩。
+    </div>
+    
+    
+    <div class="summary">
+        <h2><a href="/about/">关于我的博客</a></h2>
+        这是一个什么样的博客 这个博客我主要是用来记录我的学习，生活。
+    </div>
+    
+    
 
 
-           <footer>
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="http://gohugo.io">Hugo</a></li>
-                <li><a href="http://bootswatch.com">Bootswatch</a></li>
-                <li><a href="http://getbootstrap.com">Bootstrap</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="pull-right"><a href="#top">Back to top</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </footer>
+             <footer>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="https://github.com/vashstorm">Github</a></li>
+                            <li><a href="http://gohugo.io">Hugo</a></li>
+                            <li><a href="http://bootswatch.com">Bootswatch</a></li>
+                            <li><a href="http://getbootstrap.com">Bootstrap</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="pull-right"><a href="#top">Back to top</a></li>
+                        </ul>
+                    </div>
+            </nav>
+                </div>
+        </footer>
 
 </div>
 
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        
-        <script src="/js/bootswatch.js"></script>
+        <script src="http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="http://libs.useso.com/js/bootstrap-switch/3.0.1/js/bootstrap-switch.min.js"></script>
+        <script src="/js/prism.js"></script>
     </body>
 </html>
 

@@ -1,6 +1,41 @@
 body{
-    padding-top:50px;
+    padding-top:1px;
+    font-size:12pt;
+    font-family:'微软雅黑',Georgia,Serif;
 }
+
 footer{
     padding-top:50px;
 }
+
+h2{
+    font-size:16pt;
+}
+
+h1{
+    border-left-style:solid;
+    border-left-width:7px;
+    border-left-color:green;
+    padding-left:9px;
+    font-size:18pt;
+    color:green;
+}
+
+ul{
+    font-size:12pt;
+}
+
+li{
+    font-size:12pt;
+}
+
+pre{
+    font-family:'pt mono' monospace;
+    font-size:12pt;
+}
+
+code{
+    font-family:'pt mono' monospace;
+    font-size:12pt;
+}
+

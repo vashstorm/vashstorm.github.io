@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog of Panh</title>
-    <link>http://10.8.253.78/</link>
+    <link>http://vashstorm.github.io/</link>
     <description>Recent content on Blog of Panh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 24 Sep 2015 15:31:10 +0800</lastBuildDate>
-    <atom:link href="http://10.8.253.78/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vashstorm.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>docker 玩耍记录</title>
-      <link>http://10.8.253.78/docker/docker_1/</link>
+      <link>http://vashstorm.github.io/docker/docker_1/</link>
       <pubDate>Thu, 24 Sep 2015 15:31:10 +0800</pubDate>
       
-      <guid>http://10.8.253.78/docker/docker_1/</guid>
+      <guid>http://vashstorm.github.io/docker/docker_1/</guid>
       <description>
 
-&lt;h1 id=&#34;docker:d914636b87b74b611343b0c44796dc0d&#34;&gt;Docker&lt;/h1&gt;
+&lt;p&gt;主要是 &lt;code&gt;docker&lt;/code&gt; 的一些配置和常用技巧。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://10.8.253.78/docker/img/docker_1.png&#34; alt=&#34;docker&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://vashstorm.github.io/docker/img/docker_1.png&#34; alt=&#34;docker&#34; /&gt;
 &lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;1-no-more-sudo-for-docker:d914636b87b74b611343b0c44796dc0d&#34;&gt;1. No more sudo for docker&lt;/h2&gt;
+&lt;h1 id=&#34;no-more-sudo-for-docker:d914636b87b74b611343b0c44796dc0d&#34;&gt;No more sudo for docker&lt;/h1&gt;
 
 &lt;p&gt;操作 &lt;code&gt;docker&lt;/code&gt; 的时候每次都需要 &lt;code&gt;sudo&lt;/code&gt; 来提升权限, 比较麻烦，可以有一个简单的方法来解决。&lt;/p&gt;
 
@@ -35,7 +35,7 @@ sudo service docker restart         # 重启 docker 服务
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;2-docker-启动方式:d914636b87b74b611343b0c44796dc0d&#34;&gt;2. Docker 启动方式&lt;/h2&gt;
+&lt;h1 id=&#34;docker-启动方式:d914636b87b74b611343b0c44796dc0d&#34;&gt;Docker 启动方式&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -43,25 +43,39 @@ sudo service docker restart         # 重启 docker 服务
 
 &lt;hr /&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;docker-网络连接方式:d914636b87b74b611343b0c44796dc0d&#34;&gt;Docker 网络连接方式&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include &amp;lt;iostream&amp;gt;
+using namespace std;
+
+int main() {
+    cout &amp;lt;&amp;lt; &amp;quot;Hello World!&amp;quot; &amp;lt;&amp;lt; endl;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;3-docker-网络连接方式:d914636b87b74b611343b0c44796dc0d&#34;&gt;3. Docker 网络连接方式&lt;/h2&gt;
+&lt;h1 id=&#34;docker-挂载磁盘:d914636b87b74b611343b0c44796dc0d&#34;&gt;Docker 挂载磁盘&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;4-docker-挂载磁盘:d914636b87b74b611343b0c44796dc0d&#34;&gt;4. Docker 挂载磁盘&lt;/h2&gt;
+&lt;h1 id=&#34;dockerfile-编写:d914636b87b74b611343b0c44796dc0d&#34;&gt;Dockerfile 编写&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;5-dockerfile-编写:d914636b87b74b611343b0c44796dc0d&#34;&gt;5. Dockerfile 编写&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;6-docker-常用命令:d914636b87b74b611343b0c44796dc0d&#34;&gt;6. Docker 常用命令&lt;/h2&gt;
+&lt;h1 id=&#34;docker-常用命令:d914636b87b74b611343b0c44796dc0d&#34;&gt;Docker 常用命令&lt;/h1&gt;
 
 &lt;hr /&gt;
 </description>
@@ -69,34 +83,34 @@ sudo service docker restart         # 重启 docker 服务
     
     <item>
       <title>kafka 命令</title>
-      <link>http://10.8.253.78/apache/kafka/</link>
+      <link>http://vashstorm.github.io/apache/kafka/</link>
       <pubDate>Wed, 23 Sep 2015 20:46:10 +0800</pubDate>
       
-      <guid>http://10.8.253.78/apache/kafka/</guid>
+      <guid>http://vashstorm.github.io/apache/kafka/</guid>
       <description>
 
-&lt;h1 id=&#34;kafka-常用工具命令:473086dd57aae3549a71f8d57d9ac809&#34;&gt;kafka 常用工具命令&lt;/h1&gt;
+&lt;p&gt;收集了一些常用的kafka命令，其中 &lt;code&gt;port&lt;/code&gt;，&lt;code&gt;topic&lt;/code&gt; 符合我自己的生产环境。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://10.8.253.78/apache/img/apache_log.png&#34; alt=&#34;apache_log&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://vashstorm.github.io/apache/img/apache_log.png&#34; alt=&#34;apache_log&#34; /&gt;
 &lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;查看topic:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic&lt;/h2&gt;
+&lt;h1 id=&#34;查看topic:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topic.sh --zookeeper 22288
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;查看topic-分布:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic 分布&lt;/h2&gt;
+&lt;h1 id=&#34;查看topic-分布:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic 分布&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic各个分区的offset&lt;/h2&gt;
+&lt;h1 id=&#34;查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic各个分区的offset&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
 &lt;/code&gt;&lt;/pre&gt;
@@ -111,13 +125,11 @@ sudo service docker restart         # 重启 docker 服务
     
     <item>
       <title>go 资料</title>
-      <link>http://10.8.253.78/go/go_doc/</link>
+      <link>http://vashstorm.github.io/go/go_doc/</link>
       <pubDate>Sat, 12 Sep 2015 13:53:55 +0800</pubDate>
       
-      <guid>http://10.8.253.78/go/go_doc/</guid>
-      <description>
-
-&lt;h1 id=&#34;go-语言资料汇总:fbf51d3b4159c73644b2c526027f6194&#34;&gt;go 语言资料汇总&lt;/h1&gt;
+      <guid>http://vashstorm.github.io/go/go_doc/</guid>
+      <description>&lt;p&gt;go 语言资料汇总。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; 用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;
@@ -128,45 +140,28 @@ sudo service docker restart         # 重启 docker 服务
     </item>
     
     <item>
-      <title>rocksdb</title>
-      <link>http://10.8.253.78/nosql/rocksdb/</link>
+      <title>rocksdb:尽然有用起来这么麻烦的东西</title>
+      <link>http://vashstorm.github.io/nosql/rocksdb/</link>
       <pubDate>Fri, 11 Sep 2015 22:51:42 +0800</pubDate>
       
-      <guid>http://10.8.253.78/nosql/rocksdb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>关于我的博客</title>
-      <link>http://10.8.253.78/about/</link>
-      <pubDate>Fri, 11 Sep 2015 20:22:03 +0800</pubDate>
-      
-      <guid>http://10.8.253.78/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;这是一个什么样的博客:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;这是一个什么样的博客&lt;/h1&gt;
-
-&lt;p&gt;这个博客我主要是用来记录我的学习，生活。&lt;/p&gt;
+      <guid>http://vashstorm.github.io/nosql/rocksdb/</guid>
+      <description>&lt;p&gt;rocksdb 是 facebook 开源的 KV 数据库。&lt;br /&gt;
+rocksdb &lt;a href=&#34;https://github.com/facebook/rocksdb&#34;&gt;github 主页&lt;/a&gt;&lt;br /&gt;
+关于这个真不知道说啥，因为要求 C++11 标准，所以暂时只能自己玩。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>常用链接</title>
-      <link>http://10.8.253.78/docs/aaa/</link>
-      <pubDate>Thu, 01 Jan 2015 13:53:55 +0800</pubDate>
+      <title>关于我的博客</title>
+      <link>http://vashstorm.github.io/about/</link>
+      <pubDate>Fri, 11 Sep 2015 20:22:03 +0800</pubDate>
       
-      <guid>http://10.8.253.78/docs/aaa/</guid>
+      <guid>http://vashstorm.github.io/about/</guid>
       <description>
 
-&lt;h1 id=&#34;blogs:866cc4004884fb194cc9090bceb425ea&#34;&gt;Blogs&lt;/h1&gt;
+&lt;h2 id=&#34;这是一个什么样的博客:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;这是一个什么样的博客&lt;/h2&gt;
 
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt;                       用简单代码演示Go的特性，方便查询和巩固。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.studygolang.com/pkg/&#34;&gt;Go Doc&lt;/a&gt;                                                 Go 官方文档。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://http://beego.me/&#34;&gt;Beego&lt;/a&gt;            一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架。&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;这个博客我主要是用来记录我的学习，生活。&lt;/p&gt;
 </description>
     </item>
     
