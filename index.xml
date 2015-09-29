@@ -28,7 +28,7 @@
 
 &lt;p&gt;操作 &lt;code&gt;docker&lt;/code&gt; 的时候每次都需要 &lt;code&gt;sudo&lt;/code&gt; 来提升权限, 比较麻烦，可以有一个简单的方法来解决。&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo groupadd docker                # 先添加 docker 用户组
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo groupadd docker                # 先添加 docker 用户组
 sudo gpasswd -a username docker     # 把当前使用的账号添加到 docker 组
 sudo service docker restart         # 重启 docker 服务
 &lt;/code&gt;&lt;/pre&gt;
@@ -98,21 +98,21 @@ int main() {
 
 &lt;h1 id=&#34;查看topic:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic&lt;/h1&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topic.sh --zookeeper 22288
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./bin/kafka-topic.sh --zookeeper 22288
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;查看topic-分布:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic 分布&lt;/h1&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic各个分区的offset&lt;/h1&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;

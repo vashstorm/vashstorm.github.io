@@ -26,21 +26,21 @@
 
 &lt;h1 id=&#34;查看topic:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic&lt;/h1&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topic.sh --zookeeper 22288
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./bin/kafka-topic.sh --zookeeper 22288
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;查看topic-分布:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic 分布&lt;/h1&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&#34;查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809&#34;&gt;查看topic各个分区的offset&lt;/h1&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;

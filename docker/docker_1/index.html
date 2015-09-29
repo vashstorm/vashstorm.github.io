@@ -67,7 +67,7 @@
 
 <p>操作 <code>docker</code> 的时候每次都需要 <code>sudo</code> 来提升权限, 比较麻烦，可以有一个简单的方法来解决。</p>
 
-<pre><code class="language-shell">sudo groupadd docker                # 先添加 docker 用户组
+<pre class="line-numbers"><code class="language-bash">sudo groupadd docker                # 先添加 docker 用户组
 sudo gpasswd -a username docker     # 把当前使用的账号添加到 docker 组
 sudo service docker restart         # 重启 docker 服务
 </code></pre>
@@ -86,7 +86,7 @@ sudo service docker restart         # 重启 docker 服务
 
 <h1 id="docker-网络连接方式:d914636b87b74b611343b0c44796dc0d">Docker 网络连接方式</h1>
 
-<pre><code class="language-cpp">#include &lt;iostream&gt;
+<pre class="line-numbers"><code class="language-cpp">#include &lt;iostream&gt;
 using namespace std;
 
 int main() {

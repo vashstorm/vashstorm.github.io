@@ -65,21 +65,21 @@
 
 <h1 id="查看topic:473086dd57aae3549a71f8d57d9ac809">查看topic</h1>
 
-<pre><code class="language-shell">./bin/kafka-topic.sh --zookeeper 22288
+<pre class="line-numbers"><code class="language-bash">./bin/kafka-topic.sh --zookeeper 22288
 </code></pre>
 
 <hr />
 
 <h1 id="查看topic-分布:473086dd57aae3549a71f8d57d9ac809">查看topic 分布</h1>
 
-<pre><code class="language-shell">./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
+<pre class="line-numbers"><code class="language-bash">./bin/kafka-topics.sh --describe --zookeeper localhost:22288 --topic activeDegree
 </code></pre>
 
 <hr />
 
 <h1 id="查看topic各个分区的offset:473086dd57aae3549a71f8d57d9ac809">查看topic各个分区的offset</h1>
 
-<pre><code class="language-shell">./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
+<pre class="line-numbers"><code class="language-bash">./bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9099 --topic activeDegree --time -1
 </code></pre>
 
 <ul>
